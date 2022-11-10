@@ -1,0 +1,140 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    width:100%;
+    background-color:#ffa07a;
+}
+header{
+    background-color: #ffdab9;
+    text-align: center;
+}
+h1{
+    font-size: 100%;
+}
+main{
+    width:100%;
+    display: block;
+    border-bottom:1px solid #ccc;
+    position:relative;
+    font-size: 30px;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:93%;
+    font-size: 80%;
+    margin: 10px 3%;
+    text-align: center;
+}
+.list-1 li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #fff;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    color:#0d7dfd;
+}
+.list-1 li:hover{
+    background: #0d7dfd;
+    color:#fff;
+}
+textarea{
+  margin: 10px 3%;
+  width: 93%;
+  height: 45px;
+  font-size:80%;
+  box-shadow: 3px 3px 3px 3px #555;
+  background-color:rgb(241, 239, 239);
+  font-size: 40px;
+  color: #ff4500;
+}
+#key{
+    margin:0 3%;
+    width: 93%;
+    font-size:80%;
+    background-color: #e1efff;
+    box-shadow: 3px 3px 3px 3px #555;
+}
+table{
+    margin: 20px 3%;
+    border:1px solid #8dc3f5;
+    width:93%;
+    
+}
+th{
+    width:30%;
+    font-size:24px;
+    background-color:#d0e7fc;
+    border-bottom: 1px solid #8dc3f5;
+}
+td{
+    font-size:16px;
+    background-color:rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+}
+
+.error{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.list-box-6{
+    background: #fef8f9;/* 背景色 */
+    border-radius: 4px;
+    width: 91%;
+    padding: 1em;
+    margin:0 auto;
+    border:1px solid;
+    border-color:#f27398; /* 線の色 */
+    font-size: 22px;
+}
+
+.list-6{
+    counter-reset:number;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+ .list-6 li { 
+    border-bottom:2px dashed;
+    border-color:#cdcdcd; /* 線の色 */
+    position: relative;
+    margin:0.5em 0 !important;
+    width:90%; /* 横幅 */
+    padding: 0 0 0.5em 1.8em;
+}
+.list-6 li:last-child { 
+    border:none;
+}
+.list-6 li:before {
+    counter-increment: number;
+    content: counter(number);
+    background-color: #ffa952; /* 文字背景色 */
+    color: #fff; /* 文字色 */
+    position: absolute;
+    font-weight:bold;
+    font-size: 16px;
+    border-radius: 50%;
+    left: 0;
+    top:0.5em;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
